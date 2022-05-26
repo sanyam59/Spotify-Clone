@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;600&family=Ubuntu&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    height: 50px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    padding: 0 8px;
+}
